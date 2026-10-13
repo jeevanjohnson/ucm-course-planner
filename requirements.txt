@@ -1,0 +1,2 @@
+# Runtime uses Python 3.11+ standard library only.
+# Pinned Preact 10.26.4 and htm 3.1.1 are vendored in static/vendor.

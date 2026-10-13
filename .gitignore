@@ -1,0 +1,10 @@
+.venv/
+.tmp/
+.cache/
+.token-governor/
+__pycache__/
+research/*.html
+research/*.js
+research/*.json
+registration.html
+*.log
