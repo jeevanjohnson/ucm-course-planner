@@ -113,6 +113,10 @@ Run rating checks with `node --test tests/professors.test.mjs`.
 
 ## Course descriptions and prerequisites
 
-Click a course title or calendar block to view its description, prerequisites, corequisites, and enrollment restrictions. Details come from the official registration system for that term and CRN, with source links, a retrieval timestamp, and a link to the UC Merced catalog. Prerequisite tables preserve AND/OR alternatives, parentheses, test scores, and minimum grades. Missing information is labeled; it does not imply eligibility.
+Click a course title or calendar block to view its description, prerequisites, corequisites, and enrollment restrictions. Details come from the official registration system for that term and CRN, with source links, a retrieval timestamp, and a link to the UC Merced catalog. Prerequisite text preserves AND/OR alternatives, parentheses, test scores, and minimum grades. Missing information is labeled; it does not imply eligibility.
 
 The local `/api/details` route fetches four public registration detail fragments only when you open a section. Responses are cached for one hour, separately from enrollment and saved plans. Connection failures retain an available snapshot and mark it stale. Demo details are explicitly synthetic. The planner displays requirements but does not evaluate your transcript or register you for courses.
+
+## Research credits
+
+Use Research credits to add a course code such as CSE 195 and a planned unit amount. Tentative and personally confirmed credits both count in Planned Units. Edit the amount directly or choose Confirm credits when finalized. Entries save independently in each plan and survive refreshes. Reset Calendar clears them with the sections; Undo Reset restores them. They do not create calendar meetings, trigger university lookups, or imply enrollment. Remove a placeholder if you add an official section for the same credits.

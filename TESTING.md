@@ -27,3 +27,9 @@ The browser contains an `Example live plan`, a separate `Demo test plan`, and an
 - Official MATH 141 CRN 10550 in Spring 2027 returned four discussion alternatives through the new running `/api/linked` route.
 - In a separate `Linked sections example` browser plan, adding the lecture showed Missing discussion and the four official choices. Adding CRN 11011 changed both sections to complete; refresh preserved the result. Removing that discussion immediately restored the missing warning. The previously active plan was restored after testing.
 - The new panel was visually checked; no browser console warnings or errors appeared. Screenshot: `artifacts/section-requirements.jpg`.
+
+## Prerequisite text and research credits
+
+- All 21 JavaScript tests pass, including grouped prerequisite text, fallback rule text, research unit validation, confirmation, and persistence.
+- Browser checks verified a tentative CSE 195 entry, immediate unit edits, confirmation, refresh persistence, and reset/undo. Test entries were removed and the original plan restored.
+- Live MATH 141 prerequisites were checked in the text display.
